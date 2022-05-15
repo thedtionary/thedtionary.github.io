@@ -1,0 +1,315 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.center_form {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.center_dick {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.bolded {  font-family: all-round-gothic_bolder;}
+
+
+.info {
+  top: 50%;
+  align-items: center;
+  justify-content: center;
+  font-family: all-round-gothic;
+  color: #F7C5DD;
+  width: 900px;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.info_list {
+  
+  padding-left: 3%;
+  text-align: left;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .info{
+    font-size: 20px;
+    width: 500px;
+  }
+}
+
+.text_header{
+  text-decoration: none;
+font-family: all-round-gothic_bolder;
+font-size: 65px;
+font-weight: bolder;
+color: #fee80c;
+font-weight:bold;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: -15%;
+}
+
+.text_header_pink{
+   text-decoration: none;
+  font-family: all-round-gothic_bolder;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #ff48b0;
+  font-weight:bold;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: -15%;
+  }
+  
+.link {
+  text-decoration: none;
+  color: #F7C5DD;
+}
+
+.form {
+  min-width: 100%;
+  font-size: 20px;
+   border: none;
+    color: #fee80c; 
+    font-family:all-round-gothic;
+}
+
+
+
+.form_input {
+border-radius: 16px;
+font-family:all-round-gothic_bolder;
+border: 1px solid #c74f98;
+box-sizing: border-box;
+padding: 15px 25px;
+ margin: 8px 0;
+ background-color: #ffc2de;
+ width: 740px;
+ color: #ff48b0;
+ 
+}
+
+.form_input textarea {
+  padding: 50px 40px;
+}
+.some_padding1 {
+  padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .form_input{
+    padding: 15px 15px;
+    width: 410px;
+  }
+}
+
+
+input[type=submit] {
+  background: url(images/cursor-61.png);
+  border: 0;
+  display: block;
+  height: _the_image_height;
+  width: _the_image_width;
+}
+
+.button_submit {
+  float:right;
+}
+
+.special_button {
+  padding: 25px;
+  font-family:all-round-gothic_bolder;
+  cursor: pointer;
+}
+
+.special_button :hover {
+ cursor: pointer;
+} 
+
+.container {
+  display: inline-block;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.back_image{
+  position:absolute;
+  font-family:all-round-gothic;
+  top: 0;
+  left:0;
+  color: #ff48b0;
+  text-decoration: none;
+  padding: 1%;
+  padding-left: 2%;
+  padding-top: 1%;
+  font-size: 60px;
+}
+
+
+
+.link_image{
+  position:fixed;
+  bottom: 0;
+  right:0;
+  padding-bottom: 5%;
+  padding-right: 3%;
+  
+}
+
+
+
+.posts{
+  font-family:all-round-gothic;
+  color: #ff48b0;
+  font-size: 18px;
+  width:800px;
+  padding: 5%;
+  padding-left: 6%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .posts {
+    width:450px;
+    font-size: 16px;
+  } 
+  .link_image {
+    background-color: #fee80c;
+    padding-right: 10%;
+    padding-bottom: 6%;
+  }
+}
+
+
+.one_post{
+  padding-bottom: 1.5%;
+}
+
+.date{
+  font-family:all-round-gothic_bolder;
+}
+
+.footer {
+  text-decoration: none;
+  font-family:all-round-gothic_bolder;
+  right:0;
+  padding: 2%;
+  font-size: 25px;
+}
+
+
+
+.footer_container{
+  text-align: right;
+  bottom: 0;
+  position:fixed;
+  height: 30px;
+  
+  width: 100%;
+  padding-bottom: 1.5%;
+  
+}
+
+.footer_container_left{
+  text-align: left;
+  bottom: 0;
+  position:fixed;
+  
+  
+  width: 100%;
+  padding-bottom: 1.5%;
+  
+}
+
+.main_footer {
+
+    text-decoration: none;
+    font-family:all-round-gothic_bolder;
+    position:fixed;
+    bottom: 0;
+    right:0;
+    padding: 2%;
+    padding-right: 4%;
+    font-size: 25px;
+}
+
+
+.termfoot_container{
+  text-align: right;
+  bottom: 0;
+  position:fixed;
+ 
+  background-color: #fee80c;
+  width: 100%;
+
+  
+} 
+
+@media only screen and (max-width: 1300px) {
+  /* For mobile phones: */
+  .termfoot_container {
+    height: 370px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .footer{
+    font-size: 20px;
+    right: 0;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+  
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="text_header_"] {
+    font-size: 50px;
+  }
+
+
+}
