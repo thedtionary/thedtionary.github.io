@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.492ba325.css",
+    "main.js": "./static/js/main.83415bbb.js",
+    "static/js/787.c64a0480.chunk.js": "./static/js/787.c64a0480.chunk.js",
+    "static/media/posters.png": "./static/media/posters.41013d24b87835fc5cce.png",
+    "static/media/anime.gif": "./static/media/anime.e72ef9f53bb3f30525ac.gif",
+    "static/media/all-round-gothic.ttf": "./static/media/all-round-gothic.942ab17bfa5c8463ca61.ttf",
+    "static/media/all-round-gothic_bolder.ttf": "./static/media/all-round-gothic_bolder.439c6fe7e0361f0bbc90.ttf",
+    "index.html": "./index.html",
+    "main.492ba325.css.map": "./static/css/main.492ba325.css.map",
+    "main.83415bbb.js.map": "./static/js/main.83415bbb.js.map",
+    "787.c64a0480.chunk.js.map": "./static/js/787.c64a0480.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.492ba325.css",
+    "static/js/main.83415bbb.js"
+  ]
+}
