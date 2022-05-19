@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c57fa3e3.css",
-    "main.js": "./static/js/main.16bb08f3.js",
+    "main.js": "./static/js/main.bfde315d.js",
     "static/js/787.c64a0480.chunk.js": "./static/js/787.c64a0480.chunk.js",
     "static/media/posters.png": "./static/media/posters.41013d24b87835fc5cce.png",
     "static/media/anime.gif": "./static/media/anime.e72ef9f53bb3f30525ac.gif",
@@ -9,11 +9,11 @@
     "static/media/all-round-gothic_bolder.ttf": "./static/media/all-round-gothic_bolder.439c6fe7e0361f0bbc90.ttf",
     "index.html": "./index.html",
     "main.c57fa3e3.css.map": "./static/css/main.c57fa3e3.css.map",
-    "main.16bb08f3.js.map": "./static/js/main.16bb08f3.js.map",
+    "main.bfde315d.js.map": "./static/js/main.bfde315d.js.map",
     "787.c64a0480.chunk.js.map": "./static/js/787.c64a0480.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c57fa3e3.css",
-    "static/js/main.16bb08f3.js"
+    "static/js/main.bfde315d.js"
   ]
 }
